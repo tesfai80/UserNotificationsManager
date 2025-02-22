@@ -14,5 +14,53 @@
       }
     ],
     "ReturnTypes": []
+  },
+  {
+    "ContainingType": "NotificationManager.API.Controllers.UserController",
+    "Method": "GetUserPreferences",
+    "RelativePath": "api/User/{userId}/preferences",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "NotificationManager.API.Controllers.UserController",
+    "Method": "CreateUserPreferences",
+    "RelativePath": "api/User/preferences",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userPreference",
+        "Type": "NotificationManager.API.Models.UserPreference",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "NotificationManager.API.Controllers.UserController",
+    "Method": "UpdateUserPreferences",
+    "RelativePath": "api/User/preferences",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "NotificationManager.API.Models.UpdateUserPreferenceRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
   }
 ]

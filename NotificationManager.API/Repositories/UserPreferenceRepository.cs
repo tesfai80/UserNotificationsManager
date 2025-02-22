@@ -20,13 +20,14 @@ public class UserPreferenceRepository: IUserPreferenceRepository
         return Task.CompletedTask;
     }
 
-    public Task UpdateUserPreferenceAsync(string email, NotificationPreference preferences)
+    public Task<bool> UpdateUserPreferenceAsync(string email, NotificationPreference preferences)
     {
         var user = _userPreferences.Values.FirstOrDefault(u => u.Email == email);
         if (user != null)
         {
             _userPreferences[user.UserId] = user with { Preferences = preferences };
+            return Task.FromResult(true);
         }
-        return Task.CompletedTask;
-    }
+        return Task.FromResult(false);
+    }    
 }

@@ -118,3 +118,4 @@ C:\Users\tesfa\source\repos\UserNotificationsManager\NotificationManager.API\obj
 C:\Users\tesfa\source\repos\UserNotificationsManager\NotificationManager.API\obj\Debug\net8.0\NotificationManager.API.pdb
 C:\Users\tesfa\source\repos\UserNotificationsManager\NotificationManager.API\obj\Debug\net8.0\NotificationManager.API.genruntimeconfig.cache
 C:\Users\tesfa\source\repos\UserNotificationsManager\NotificationManager.API\obj\Debug\net8.0\ref\NotificationManager.API.dll
+C:\Users\tesfa\source\repos\UserNotificationsManager\NotificationManager.API\obj\Debug\net8.0\NotificationManager.API.sourcelink.json
