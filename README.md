@@ -1,4 +1,4 @@
-# Notification Management Service
+# User Notifications Manager Service
 
 ## Overview
 This service allows managing user notification preferences and sending notifications based on those preferences. It supports sending notifications via email and SMS, with rate limiting and error handling built-in.
@@ -28,10 +28,7 @@ This service allows managing user notification preferences and sending notificat
 │   │   ├── Program.cs
 │   │   ├── appsettings.json
 │   ├── NotificationManager.Tests/        # Unit tests
-│   ├── NotificationManager.Infrastructure/  # Infrastructure (future DB, caching)
-│   │   ├── Persistence/
-│   │   ├── Config/
-│   │   ├── Messaging/
+
 ├── Dockerfile                          # Docker setup
 ├── docker-compose.yml                   # Multi-container setup
 ├── .gitignore                           # Git ignore settings
