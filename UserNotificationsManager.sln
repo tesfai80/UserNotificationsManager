@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35707.178
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{64D6D87D-7FFD-425D-A2BB-E85021904488}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NotificationManager.Tests", "NotificationManager.Tests\NotificationManager.Tests.csproj", "{0F5A5DF1-8433-4577-8E2A-88A31A46C12E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NotificationManager.API", "NotificationManager.API\NotificationManager.API.csproj", "{62AB3C90-D732-416D-869B-E7FDBEB0843F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0F5A5DF1-8433-4577-8E2A-88A31A46C12E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F5A5DF1-8433-4577-8E2A-88A31A46C12E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F5A5DF1-8433-4577-8E2A-88A31A46C12E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F5A5DF1-8433-4577-8E2A-88A31A46C12E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{62AB3C90-D732-416D-869B-E7FDBEB0843F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{62AB3C90-D732-416D-869B-E7FDBEB0843F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{62AB3C90-D732-416D-869B-E7FDBEB0843F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{62AB3C90-D732-416D-869B-E7FDBEB0843F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0F5A5DF1-8433-4577-8E2A-88A31A46C12E} = {64D6D87D-7FFD-425D-A2BB-E85021904488}
+		{62AB3C90-D732-416D-869B-E7FDBEB0843F} = {64D6D87D-7FFD-425D-A2BB-E85021904488}
+	EndGlobalSection
+EndGlobal

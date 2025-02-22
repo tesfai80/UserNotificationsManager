@@ -1,0 +1,27 @@
+version: '3.8'
+
+services:
+  notification-manager:
+    build:
+      context: ../NotificationManager.API  
+      dockerfile: Dockerfile
+    container_name: notification-manager
+    ports:
+      - "8080:8080"
+    depends_on:
+      - notification-service
+    environment:
+      - NOTIFICATION_SERVICE_URL=http://notification-service:5001
+
+  notification-service:
+    build:
+      context: ../NotificationService.API  
+      dockerfile: Dockerfile
+    container_name: notification-service
+    ports:
+      - "5001:5001"
+    environment:
+      - EMAIL_RATE_LIMIT=1
+      - SMS_RATE_LIMIT=1
+      - RATE_LIMIT_WINDOW_MS=1000
+      - ERROR_RATE=0.1

@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "sD/Yjuh1SAT64T9Jj7hpod2u0jVriFvPh1PlvCRSDgE=",
+  "Source": "NotificationManager.API",
+  "BasePath": "_content/NotificationManager.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
