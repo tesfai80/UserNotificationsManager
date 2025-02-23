@@ -1,5 +1,21 @@
 [
   {
+    "ContainingType": "NotificationManager.API.Controllers.AuthController",
+    "Method": "Login",
+    "RelativePath": "api/Auth/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "NotificationManager.API.Models.LoginRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "NotificationManager.API.Controllers.NotificationController",
     "Method": "SendNotification",
     "RelativePath": "api/Notification/send",

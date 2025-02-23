@@ -119,3 +119,11 @@ C:\Users\tesfa\source\repos\UserNotificationsManager\NotificationManager.API\obj
 C:\Users\tesfa\source\repos\UserNotificationsManager\NotificationManager.API\obj\Debug\net8.0\NotificationManager.API.genruntimeconfig.cache
 C:\Users\tesfa\source\repos\UserNotificationsManager\NotificationManager.API\obj\Debug\net8.0\ref\NotificationManager.API.dll
 C:\Users\tesfa\source\repos\UserNotificationsManager\NotificationManager.API\obj\Debug\net8.0\NotificationManager.API.sourcelink.json
+C:\Users\tesfa\source\repos\UserNotificationsManager\NotificationManager.API\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\tesfa\source\repos\UserNotificationsManager\NotificationManager.API\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\tesfa\source\repos\UserNotificationsManager\NotificationManager.API\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\tesfa\source\repos\UserNotificationsManager\NotificationManager.API\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\tesfa\source\repos\UserNotificationsManager\NotificationManager.API\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\tesfa\source\repos\UserNotificationsManager\NotificationManager.API\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\tesfa\source\repos\UserNotificationsManager\NotificationManager.API\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\tesfa\source\repos\UserNotificationsManager\NotificationManager.API\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll

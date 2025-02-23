@@ -1,8 +1,11 @@
 ﻿
+using Microsoft.AspNetCore.Authorization;
+
 namespace NotificationManager.API.Controllers;
 
 [Route("api/[controller]")]
 [ApiController]
+[Authorize]
 public class NotificationController : ControllerBase
 {
     private readonly IUserPreferenceRepository _userRepo;
