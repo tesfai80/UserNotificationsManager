@@ -1,3 +1,6 @@
 ﻿namespace NotificationManager.API.Models;
 
-public record NotificationPreference(bool Email, bool Sms);
+public record NotificationPreference(
+    [Required] bool Email,
+    [Required] bool Sms
+);

@@ -20,11 +20,26 @@ public class NotificationController : ControllerBase
     [HttpPost("send")]
     public async Task<IActionResult> SendNotification([FromBody] SendNotificationRequest request)
     {
+        if (!ModelState.IsValid)
+        {
+            return BadRequest(ModelState);
+        }
         var user = await _userRepo.GetUserPreferenceAsync(request.UserId);
         if (user == null)
             return NotFound("User not found.");
 
         await _notificationService.SendNotificationAsync(user, request.Message);
-        return Ok("Notification sent.");
+        return Ok(new { status = "sent", message = "Notification sent successfully." });
+    }
+    [HttpPut("preferences")]
+    public async Task<IActionResult> UpdateUserPreferences([FromBody] UpdateUserPreferenceRequest request)
+    {
+        if (!ModelState.IsValid)
+        {
+            return BadRequest(ModelState);
+        }
+
+        var success = await _userRepo.UpdateUserPreferenceAsync(request.Email, request.Preferences);
+        return success ? Ok(new { status = "updated", message = "User preferences updated." }) : NotFound("User not found.");
     }
 }
