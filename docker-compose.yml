@@ -14,7 +14,7 @@ services:
       - NOTIFICATION_SERVICE_URL=http://notification-service:5001
 
     notification-service:
-    image: john/backend-interview-notifications-service:0.0.2
+    image: tesfay/backend-notifications-service:0.0.2
     ports:
       - "5001:5001"
     environment:
